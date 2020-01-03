@@ -3,18 +3,12 @@ layout: layouts/page.njk
 title: Resources
 ---
 
-This is the resources page
-<div>
-    <h2>Style guides and atomic design</h2>
-</div>
+## Style guides and atomic design
 
-<div class="tile tile--flex tile--fancy">
-    <ul class="link-list">
-        <li class="link-list__item"><a class="link-list__link" href="http://styleguides.io">Styleguides.io</a></li>
-        <li class="link-list__item"><a class="link-list__link" href="http://atomicdesign.bradfrost.com">Atomic Design by Brad Frost</a></li>
-        <li class="link-list__item"><a class="link-list__link" href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic design article</a></li>
-    </ul>
-</div>
+- [Styleguides.io](http://styleguides.io)
+- [Atomic Design by Brad Frost](http://atomicdesign.bradfrost.com)
+- [Atomic design article](http://bradfrost.com/blog/post/atomic-web-design/)
+- [A new link](http://google.com)
 
 <div class="tile tile--flex tile--fancy">
 		    <h2 class="language-btn">Pattern Lab Examples</h2>
