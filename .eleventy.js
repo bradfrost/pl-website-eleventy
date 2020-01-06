@@ -6,6 +6,7 @@ const fs = require('fs');
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
 // Import transforms
 const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -57,6 +58,7 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(eleventyNavigationPlugin);
 
   // 404
   config.setBrowserSyncConfig({

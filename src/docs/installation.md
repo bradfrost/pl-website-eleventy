@@ -3,6 +3,10 @@ title: Installing Pattern Lab
 tags:
   - docs
 category: getting-started
+eleventyNavigation:
+  key: Install
+  parent: getting-started
+order: 10
 ---
 
 Once you have the requisite [requirements installed](/docs/requirements), install Pattern Lab by running the following command in your terminal:
