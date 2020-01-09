@@ -1,3 +1,5 @@
+
+
 {
   "items": [
     {
@@ -24,6 +26,11 @@
         {
           "label": "Advanced",
           "category": "advanced"
+        },
+        {
+          "label": "navtest",
+          "category": "navtest",
+          "key": "navtest"
         }
       ]
     },
@@ -64,3 +71,4 @@
     }
   ]
 }
+

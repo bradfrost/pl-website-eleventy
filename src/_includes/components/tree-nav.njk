@@ -1,8 +1,12 @@
 
 
 <nav class="c-tree-nav">
-    <ul class="c-tree-nav">
+
+    <ul class="c-tree-nav"> 
         {% for item in navigation.items %}
+        
+
+        {{ navPages | dump | safe }}
         <li class="c-tree-nav__item {% if item.subnav %}js-nav-dropdown{% endif %}">
             {% if item.subnav %}
             <button class="c-tree-nav__link c-tree-nav__link--btn js-nav-dropdown-trigger" aria-expanded="true">
@@ -33,4 +37,7 @@
         {% endfor %}
     </ul><!--end c-tree-nav-->
 </nav>
+
+{% set navPages = collections.all | eleventyNavigation %}
+{{ navPages | dump | safe }}
 

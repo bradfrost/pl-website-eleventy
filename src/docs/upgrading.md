@@ -6,9 +6,9 @@ tags:
   - media
 category: getting-started
 eleventyNavigation:
-  key: Upgrade
+  key: upgrade
   parent: getting-started
-order: 20
+  order: 20
 ---
 
 Pattern Lab uses [npm](https://www.npmjs.com/) to manage project dependencies. To upgrade an edition based on Pattern Lab 2 do the following:
