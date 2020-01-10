@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Pattern Lab Demos
+category: getting-started
 ---
 
 
@@ -10,19 +11,27 @@ Here’s a list of Pattern Lab’s UI starterkits that you can use to kickstart 
 ## Handlebars starterkits
 
 - [Handlebars base starterkit](https://patternlab-handlebars-preview.netlify.com/)
+- ![Handlebars base starter kit](/images/hbs-base-starterkit.png)
 - [Handlebars demo starterkit](https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-demo)
+- ![Handlebars demo starter kit](/images/hbs-demo-starterkit.png)
 - [Handlebars vanilla starterkit](https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-vanilla)
+- ![Handlebars vanilla starter kit](/images/hbs-vanilla-starterkit.png)
 
 ## Twig
 
 - [Twig base](https://github.com/pattern-lab/starterkit-twig-base)
+- ![Twig base](/images/twig-base.png)
 
 ## Pattern Lab 2 and other demos
 
 - [Pattern Lab 2 Mustache Demo](http://demo.patternlab.io/)
+- ![Pattern Lab 2 Mustache Demo](/images/pl-mustache-demo.png)
 
 ## Pattern Labs in the wild
 
 - [Bolt Design System](https://boltdesignsystem.com/)
+- ![Bolt Design System](/images/bolt-design-system.png)
 - [Brad Frost’s website PL](https://bradfrostdotcom-pl.netlify.com/)
+- ![Brad Frost’s website PL](/images/pl-brad-frost-web.png)
+
 
