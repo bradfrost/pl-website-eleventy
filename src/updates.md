@@ -5,5 +5,5 @@ title: Updates
 
 [list of blog posts]
 
-- [Blog 1](/docs/blog1)
-- [Blog 2](/docs/blog2)
+- [Blog 1](#blog1)
+- [Blog 2](#blog2)
