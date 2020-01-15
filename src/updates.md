@@ -1,9 +1,8 @@
 ---
-layout: layouts/page.njk
+layout: layouts/blog.njk
 title: Updates
 ---
 
 [list of blog posts]
 
-- [Blog 1](#blog1)
-- [Blog 2](#blog2)
+-[blog 1](/docs/blog1)
