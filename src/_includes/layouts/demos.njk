@@ -1,0 +1,21 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'demos' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+    <div class="d-layout">
+        <div class="d-layout-item">
+          <article class="[ post ] [ h-entry ]">
+            {% include "partials/components/intro.njk" %}
+            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+              {{ content | safe }}
+            </div>
+          </article>
+        </div>
+      </div>
+    
+{% endblock %}
+
+{{ content | safe }}
