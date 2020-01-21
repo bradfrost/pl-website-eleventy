@@ -12,7 +12,7 @@
 	margin: 0 auto;
 	padding: 0 $spacing;
 	width: 100%;
-
+	list-style-type: none;
 	@media all and (min-width: $bp-large) {
 		padding: 0 4rem;
 	}

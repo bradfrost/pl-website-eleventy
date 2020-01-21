@@ -3,19 +3,38 @@
 
 {# Intro content #}
 {% set introHeading = title %}
+{% set introSummary %}
+
+{% endset %}
 
 {% block content %}
-    <div class="d-layout">
-        <div class="d-layout-item">
-          <article class="[ post ] [ h-entry ]">
-            {% include "partials/components/intro.njk" %}
-            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
-              {{ content | safe }}
-            </div>
-          </article>
-        </div>
+  <div class="l-container">
+    <div class="l-linelength-container">
+    <article class="[ post ] [ h-entry ]">
+      
+      {% include "components/page-header.njk" %}
+      <div class="c-text-passage">
+        {{ content | safe }}
       </div>
-    
+      {% if tags %}
+        <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
+          <div class="inner-wrapper">
+            <div class="[ nav ] [ box-flex align-center ]">
+              <h2 class="font-base text-600 weight-mid">Filed under</h2>
+              <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
+                {% for item in tags %}
+                  <li class="nav__item">
+                    <a href="/tags/{{ item }}">{{ item }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </footer>
+      {% endif %}
+    </article>
+  </div>
+  </div>
 {% endblock %}
 
 {{ content | safe }}
