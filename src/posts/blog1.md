@@ -4,7 +4,7 @@ tags:
   - demo-content
   - code
   - blog
-category: updates
+
 ---
 
 ## Blog 1
