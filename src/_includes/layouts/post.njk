@@ -42,11 +42,4 @@
   </div>
 {% endblock %}
 
-{% block content %}
-  <main id="main-content">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
-  </main>
-{% endblock %}
-
 {{ content | safe }}
