@@ -44,6 +44,12 @@ module.exports = function(config) {
     ].reverse();
   });
 
+  config.addCollection('demos', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/demos/*.md').filter(livePosts)
+    ].reverse();
+  });
+
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
       .reverse()

@@ -1,40 +1,30 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'demos' %}
+{% set pageType = 'Post Archive' %} 
 
 {# Intro content #}
 {% set introHeading = title %}
-{% set introSummary %}
+{% set introSummary %}{{ content | safe }}{% endset %}
 
-{% endset %}
+{# Post list content #}
+{% set postListHeading = 'All demos' %}
+{% set postListItems = collections.demos %}
 
 {% block content %}
-  <div class="l-container l-container__demos">
-    <div class="l-linelength-container__demos">
-    <article class="[ post ] [ h-entry ]">
-      
-      {% include "components/page-header.njk" %}
-      <div class="c-text-passage">
-        {{ content | safe }}
-      </div>
-      {% if tags %}
-        <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
-          <div class="inner-wrapper">
-            <div class="[ nav ] [ box-flex align-center ]">
-              <h2 class="font-base text-600 weight-mid">Filed under</h2>
-              <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
-                {% for item in tags %}
-                  <li class="nav__item">
-                    <a href="/tags/{{ item }}">{{ item }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-        </footer>
-      {% endif %}
-    </article>
-  </div>
-  </div>
-{% endblock %}
+  <main id="main-content">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/post-list.njk" %}
+    <h2>Handlebars Starter Kits</h2>
+    <ul>
+    {% for collections.demos %}
+        {% if demo.data.tag == "demo-hbs-starter-kits" %}
+            <li>Hello</li>
+        {% end if %}
+    {% endfor %}
+    </ul>
 
-{{ content | safe }}
+
+<h2>Twig</h2>
+<h2>Pattern Lab 2 and Other Demos</h2>
+<h2>Pattern Labs In the wild</h2>
+  </main>
+{% endblock %}
