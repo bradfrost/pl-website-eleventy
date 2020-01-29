@@ -1,6 +1,6 @@
 ---
 title: Handlebars Vanilla Starter Kit
-link: https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-vanilla
+url: https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-vanilla
 tags:
   - demo-hbs-starter-kits
   - demo-content

@@ -6,13 +6,12 @@
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set demoListHeading = 'All demos' %}
-{% set demoListItems = collections.demos %}
+{% set postListHeading = 'All posts' %}
+{% set postListItems = collections.posts %}
 
 {% block content %}
-  <main id="main-content" class="l-demo-page__body">
+  <main id="main-content">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/demo-list.njk" %}
-
+    {% include "partials/components/post-list.njk" %}
   </main>
 {% endblock %}

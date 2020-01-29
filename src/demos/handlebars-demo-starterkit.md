@@ -1,6 +1,6 @@
 ---
 title: Handlebars Demo Starter Kit
-link: https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-demo
+url: https://www.npmjs.com/package/@pattern-lab/starterkit-handlebars-demo
 tags:
   - demo-hbs-starter-kits
   - demo-content

@@ -46,7 +46,7 @@ module.exports = function(config) {
 
   config.addCollection('demos', collection => {
     return [
-      ...collection.getFilteredByGlob('./src/demos/*.md').filter(livePosts)
+      ...collection.getFilteredByGlob('./src/demos/*.md')
     ].reverse();
   });
 

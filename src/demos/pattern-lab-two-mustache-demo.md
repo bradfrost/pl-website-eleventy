@@ -5,5 +5,5 @@ tags:
   - demo-PL2
   - demo-content
   - code
-image: /images/twig-base.png
+image: /images/pl-mustache-demo.png
 ---

@@ -1,6 +1,6 @@
 ---
 title: Brad Frost’s website PL
-link: https://bradfrostdotcom-pl.netlify.com/
+url: https://bradfrostdotcom-pl.netlify.com/
 tags:
   - demo-in-the-wild
   - demo-content

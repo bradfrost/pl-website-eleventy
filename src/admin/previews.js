@@ -62,6 +62,18 @@ const Page = ({ entry }) => (
   />
 );
 
+const Demos = ({ entry }) => (
+  <Preview
+    entry={entry}
+    path="layouts/page.njk"
+    context={({ title, body }) => ({
+      title,
+      content: markdownFilter(body || ''),
+    })}
+  />
+);
+
+
 const SiteData = ({ entry }) => (
   <Preview
     entry={entry}
