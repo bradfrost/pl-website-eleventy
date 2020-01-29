@@ -1,12 +1,11 @@
 .c-demo-list {
     display: grid;
-    align-content: flex-start;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    padding-top: 3rem;
 }
 
 .l-demo-page__body{
-    
     margin-left: 2rem;
 }
