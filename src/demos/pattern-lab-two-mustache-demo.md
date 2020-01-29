@@ -1,6 +1,6 @@
 ---
 title: Pattern Lab 2 Mustache Demo
-link: https://github.com/pattern-lab/starterkit-twig-base
+url: http://demo.patternlab.io/
 tags:
   - demo-PL2
   - demo-content
