@@ -1,10 +1,15 @@
 .c-stacked-block {
     display: block;
     margin: 0 1rem 1rem 0;
+    background: orange;
     
 
 }
 
 .c-stacked-block__title {
     font-size: $font-size-med-2;
+}
+
+.c-stacked-block__description {
+    font-size: $font-size-sm-2;
 }

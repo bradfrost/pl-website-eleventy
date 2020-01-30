@@ -1,9 +1,10 @@
 ---
 title: Pattern Lab 2 Mustache Demo
+description: Pattern Lab 1 projects should work with minimal changes in Pattern Lab 2.
 url: http://demo.patternlab.io/
 tags:
   - demo-PL2
   - demo-content
   - code
-image: /images/pl-mustache-demo.png
+image: /images/800x600.png
 ---

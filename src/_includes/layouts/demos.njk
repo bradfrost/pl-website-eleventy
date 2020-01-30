@@ -2,9 +2,10 @@
 {% set pageType = 'Post Archive' %} 
 
 {# Intro content #}
+<div class="c-header-demo-page">
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
-
+</div>
 {# Post list content #}
 {% set demoListHeading = 'All demos' %}
 {% set demoListItems = collections.demos %}

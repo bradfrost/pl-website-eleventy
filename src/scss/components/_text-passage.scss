@@ -81,13 +81,10 @@
 	 * Unordered list within text passage
 	 */
   ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     list-style: disc;
     margin-left: $spacing;
     margin-bottom: $spacing-large;
     padding: $spacing;
-    list-style-type: none;
     li:last-child {
       margin-bottom: 0;
     }

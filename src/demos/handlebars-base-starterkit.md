@@ -1,9 +1,10 @@
 ---
 title: Handlebars Base Starter Kit
+description: The StarterKit for Handlebars is meant to be used as a demonstration of a Handlebars-based project in Pattern Lab.
 url: https://patternlab-handlebars-preview.netlify.com/?p=all
 tags:
   - demo-hbs-starter-kits
   - demo-content
   - code
-image: /images/hbs-base-starterkit.png
+image: /images/800x600.png
 ---
