@@ -23,7 +23,9 @@ This will bring up an installation menu that presents the following steps:
   - `edition-node-gulp (legacy)`
 
 - `Which starterkit do you want to use?` - Choose the <a href="/docs/advanced-starterkits.html">Starterkit</a> you want to begin your project with. Starterkits define the initial components and assets that are included in the initial project. Start from scratch, start from a full demo, or a lightweight boilerplate.
+!["choose edition"](/images/4choosestarterkit.png)
 - `Are you happy with your choices? (Hit enter for YES)?` - Confirm your choices, and when done the Pattern Lab installation will begin.
+!["are you happy yes or no"](/images/5areyouhappy.png)
 
 With those questions answered, Pattern Lab will begin installing. Once the installation is complete, you're ready to <a href="/docs/generating-pattern-lab.html">generate Pattern Lab for the first time.</a>
 
