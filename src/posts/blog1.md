@@ -5,7 +5,7 @@ tags:
   - demo-content
   - code
   - blog
-url: posts/blog1.md
+url: "/posts/blog1"
 ---
 
 ## Blog 1

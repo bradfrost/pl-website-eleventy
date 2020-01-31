@@ -6,6 +6,7 @@ tags:
   - demo-content
   - simple-post
   - blog
+url: "/posts/a-scheduled-post"
 ---
 
 This post is scheduled for the future, specifically mid-2022. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
