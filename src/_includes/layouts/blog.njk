@@ -2,16 +2,18 @@
 {% set pageType = 'Post Archive' %} 
 
 {# Intro content #}
+<div class="c-header-post-page">
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
-
+</div>
 {# Post list content #}
-{% set postListHeading = 'All posts' %}
+{% set postListHeading = 'All Posts' %}
 {% set postListItems = collections.posts %}
 
 {% block content %}
-  <main id="main-content">
+  <main id="main-content" class="l-post-page__body">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/post-list.njk" %}
+
   </main>
 {% endblock %}

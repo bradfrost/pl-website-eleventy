@@ -1,5 +1,6 @@
 ---
 title: A scheduled post
+description: If you can read this, it's after June 18th, 2022. Hope you're doing well.
 date: '2022-06-18'
 tags:
   - demo-content

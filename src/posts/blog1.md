@@ -1,10 +1,11 @@
 ---
 title: Blog 1
+description: Maecenas faucibus mollis interdum!
 tags:
   - demo-content
   - code
   - blog
-
+url: posts/blog1.md
 ---
 
 ## Blog 1

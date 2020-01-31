@@ -1,9 +1,11 @@
 ---
 title: A post with code samples
+description: Break your components out of the constraints that they find themselves in!
 tags:
   - demo-content
   - code
   - blog
+url: (a-post-with-code-samples.md)
 ---
 The best way to demo a code post is to display a real life post, so check out this one from [andy-bell.design](https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/) about a full bleed CSS utility.
 
