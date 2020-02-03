@@ -3,11 +3,9 @@
 
   <ol class="c-post-list">
     {% for item in postListItems %}
-      {% if item.date.getTime() <= global.now %}
-      
         <li class="c-post-list__item">
-            <a href="{{ item.data.url }}" class="c-stacked-block" rel="bookmark">
-              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            <a href="{{ item.data.url }}" class="c-post-block" rel="bookmark">
+              <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
               <h2 class="c-stacked-block__title">
               
               {{ item.data.title }} 
@@ -18,7 +16,6 @@
             </a>
             
         </li>
-      {% endif %}
     {% endfor %}
   </ol>
 

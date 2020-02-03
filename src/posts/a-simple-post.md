@@ -1,12 +1,14 @@
 ---
 title: A simple post
 description: A simple post to demonstrate how a normal blog post looks.
+date: '2020-02-02'
 tags:
   - demo-content
   - simple-post
   - blog
-url: "/posts/a-simple-post"
+url: '/posts/a-simple-post'
 ---
+
 A simple post to demonstrate how a normal blog post looks. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post. You can also edit the markdown file directly if you prefer not to use the CMS.
 
 How about a `<blockquote>`?
@@ -24,6 +26,5 @@ How about an ordered list of stuff:
 1. Sed posuere consectetur est at lobortis
 2. Aenean lacinia bibendum nulla sed consectetur
 3. Sed posuere consectetur est at lobortis
-
 
 Hopefully, this has demonstrated how simple it is to make a nice looking blog with Hylia.
