@@ -2,20 +2,18 @@
 {% set pageType = 'Post Archive' %} 
 
 {# Intro content #}
-<div class="l-container">
-<div class="c-header-demo-page">
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
-</div>
+
 {# Post list content #}
 {% set demoListHeading = 'All demos' %}
 {% set demoListItems = collections.demos %}
 
 {% block content %}
-  <main id="main-content" class="l-demo-page__body">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/demo-list.njk" %}
-
+  <main id="main-content">
+    <div class="l-container">
+      {% include "partials/components/intro.njk" %}
+      {% include "partials/components/demo-list.njk" %}
+    </div>
   </main>
 {% endblock %}
-</div>
