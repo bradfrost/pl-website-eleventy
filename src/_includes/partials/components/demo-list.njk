@@ -2,21 +2,24 @@
 
   <ol class="c-demo-list">
     {% for item in demoListItems %}
-      {% if item.date.getTime() <= global.now %}
+
+        {% if item.data.category == demoListCategory %}
         <li class="c-demo-list__item">
-        
-            <a href="{{ item.data.url }}" class="c-stacked-block" rel="bookmark">
+            
+            <a href="{{ item.data.url }}" class="c-stacked-block">
+              <span>{{item.data.category}}</span>
               <img src="{{item.data.image}}" alt="{{item.data.title}}" class="c-stacked-block__image">
-              <h2 class="c-stacked-block__title">
+              <h3 class="c-stacked-block__title">
               {{ item.data.title }} 
-              </h2>
+              </h3>
               <p class="c-stacked-block__description">
               {{ item.data.description}} 
               </p>
             </a>
-            
+    
         </li>
-      {% endif %}
+        {% endif %}
+
     {% endfor %}
   </ol>
 
