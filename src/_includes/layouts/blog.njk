@@ -1,19 +1,17 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Post Archive' %} 
 
 {# Intro content #}
-<div class="c-header-post-page">
 {% set introHeading = title %}
-{% set introSummary %}{{ content | safe }}{% endset %}
-</div>
+{% set introDescription = description %}
+
 {# Post list content #}
-{% set postListHeading = 'All Posts' %}
 {% set postListItems = collections.posts %}
 
 {% block content %}
   <main id="main-content" class="l-post-page__body">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
-
+    <div class="l-container">
+      {% include "components/page-header.njk" %}
+      {% include "partials/components/post-list.njk" %}
+    </div>
   </main>
 {% endblock %}
