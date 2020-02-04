@@ -1,5 +1,6 @@
 ---
 title: A post with code samples
+date: '2020-02-02'
 description: Break your components out of the constraints that they find themselves in!
 tags:
   - demo-content

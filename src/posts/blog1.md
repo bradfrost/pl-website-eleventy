@@ -1,6 +1,7 @@
 ---
 title: Blog 1
 description: Maecenas faucibus mollis interdum!
+date: '2020-02-02'
 tags:
   - demo-content
   - code

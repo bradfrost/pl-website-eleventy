@@ -1,6 +1,7 @@
 ---
 title: A post with figures and video
 description: A post to demonstrate how a blog post looks with figures and video.
+date: '2020-02-02'
 tags:
   - demo-content
   - blog
