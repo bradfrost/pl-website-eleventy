@@ -6,7 +6,7 @@ tags:
   - demo-content
   - code
   - blog
-url: "/posts/blog1"
+url: '/posts/blog1'
 ---
 
 ## Blog 1

@@ -2,6 +2,7 @@
 {% set pageType = 'Post' %}
 
 {# Intro content #}
+{% set introKicker = date | dateFilter %}
 {% set introHeading = title %}
 {% set introSummary %}
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
@@ -16,7 +17,7 @@
   <div class="l-container">
     <div class="l-linelength-container">
     <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/intro.njk" %}
+      {% include "components/page-header.njk" %}
       
       <div class="c-text-passage">
         {{ content | safe }}

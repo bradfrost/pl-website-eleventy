@@ -1,5 +1,9 @@
 <div class="c-page-header">
 
+    {% if introKicker %}
+    <p class="c-page-header__kicker">{{ introKicker }}</p>
+    {% endif %}
+
     <h1 class="c-page-header__title">{{ introHeading }}</h1>
 
     {% if introDescription %}
