@@ -1,11 +1,11 @@
 .c-stacked-block {
     display: block;
-    margin: 0 1rem 1rem 0;
 }
 
 .c-stacked-block__title {
     font-size: $font-size-large;
     line-height: $line-height-med;
+    margin-bottom: $spacing-small;
 }
 
 .c-stacked-block__description {
