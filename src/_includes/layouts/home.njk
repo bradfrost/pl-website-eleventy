@@ -5,13 +5,52 @@
 {% set heroTitle = title %}
 
 {% block content %}
-    
+
     {% include "components/hero.njk" %}
+    <ul class="c-tile-list">
+    <li class="c-tile-list__item"><div class="c-tile">
+        <div class="l-container">
+            <h2 class="c-tile__title">
+                <a class="c-tile__link" href="#">Get started</a>
+            </h2>
+            <pre><code>npm create pattern-lab</code></pre>
+        </div>
+    </div>
+    </li>
+    <li class="c-tile-list__item"><div class="c-tile c-tile--gray-13">
+        <div class="l-container">
+            <h2 class="c-tile__title">
+                <a class="c-tile__link" href="#">Read the docs</a>
+            </h2>
+        </div>
+    </div>
+    <li class="c-tile-list__item">
+        <div class="c-tile c-tile--gray-27">
+            <div class="l-container">
+                <h2 class="c-tile__title">
+                    <a class="c-tile__link" href="#">Demos</a>
+                </h2>
+            </div>
+        </div>
+    </li>
+    <li class="c-tile-list__item">
+        <div class="c-tile c-tile--gray-50">
+            <div class="l-container">
+                <h2 class="c-tile__title">
+                    <a class="c-tile__link" href="#">Resources</a>
+                </h2>
+
+            </div>
+        </div>
+    </li>
+</ul>
 
     <div class="l-container">
+   
       <div class="c-text-passage">
         {{ content | safe }}
       </div>
     </div>
+     </div>
 
 {% endblock %}
