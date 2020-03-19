@@ -4,23 +4,25 @@
 
 .c-tile {
 	position: relative;
-	padding: 1.5rem 0;
+	padding: 2rem 0;
 	background: $color-gray-07;
+
+	.c-tile-list__item & {
+		height: 100%;
+	}
 }
 
 .c-tile--gray-13 {
-	padding: 1.125rem 0;
 	background: $color-gray-13;
 }
 
 .c-tile--gray-27 {
-	padding: 0.875rem 0;
 	background: $color-gray-27;
 }
 
 .c-tile--gray-50 {
-	padding: 0.5rem 0;
 	background: $color-gray-50;
+	color: $color-white;
 }
 
 .c-tile__title {

@@ -5,12 +5,17 @@
 .c-hero {
 	background: $color-gray-50;
 	color: $color-white;
-	height: 40vh;
+	min-height: 40vh;
+	padding: 2rem 0;
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	@media all and (min-width: $bp-large) {
+		min-height: 60vh;
+	}
 }
 
 .c-hero__title {
