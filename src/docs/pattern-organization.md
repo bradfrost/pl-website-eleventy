@@ -3,6 +3,10 @@ title: Overview of Patterns
 tags:
   - docs
 category: patterns
+eleventyNavigation:
+  key: Overview of Patterns
+  parent: patterns
+  order: 10
 ---
 
 Patterns can be found in `./source/_patterns/`. Patterns must be written in the template languages supported by Pattern Lab's PatternEngines. For Node there are [several more PatternEngines to choose from](/docs/advanced-template-language-and-pattern-engines.html).

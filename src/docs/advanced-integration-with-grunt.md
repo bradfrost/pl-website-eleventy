@@ -3,6 +3,10 @@ title: Integration with Grunt/Gulp
 tags:
   - docs
 category: advanced
+eleventyNavigation:
+  key: Integration with Grunt/Gulp
+  parent: advanced
+  order: 300
 ---
 
 **Note:** _These directions may be incomplete. They also require **v0.7.9** of the PHP version of Pattern Lab._

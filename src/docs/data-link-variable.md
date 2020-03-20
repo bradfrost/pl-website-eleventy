@@ -1,6 +1,10 @@
 ---
 title: Linking to Patterns with Pattern Lab's Default `link` Variable
 category: data
+eleventyNavigation:
+  key: Linking to Patterns with Pattern Lab's Default `link` Variable
+  parent: data
+  order: 100
 ---
 
 # Linking to Patterns with Pattern Lab's Default `link` Variable
