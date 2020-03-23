@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Using Pseudo-Patterns
-  parent: patterns
+  title: Using Pseudo-Patterns
+  key: patterns
   order: 140
 ---
 

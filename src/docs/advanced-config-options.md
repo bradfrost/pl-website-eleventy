@@ -4,8 +4,8 @@ tags:
   - docs
 category: getting-started
 eleventyNavigation:
-  key: Editing the Configuration Options
-  parent: getting-started
+  key: getting-started
+  title: Editing the Configuration Options
   order: 30
 ---
 

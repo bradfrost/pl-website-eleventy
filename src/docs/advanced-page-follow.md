@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Multi browser & Multi device Testing with Page Follow
-  parent: advanced
+  title: Multi browser & Multi device Testing with Page Follow
+  key: advanced
   order: 300
 ---
 

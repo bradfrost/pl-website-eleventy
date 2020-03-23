@@ -4,8 +4,8 @@ tags:
   - docs
 category: data
 eleventyNavigation:
-  key: Overview of Data
-  parent: data
+  title: Overview of Data
+  key: data
   order: 300
 ---
 

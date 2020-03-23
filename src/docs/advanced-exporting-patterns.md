@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Exporting Patterns
-  parent: advanced
+  title: Exporting Patterns
+  key: advanced
   order: 300
 ---
 

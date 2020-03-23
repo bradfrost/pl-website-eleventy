@@ -4,8 +4,8 @@ tags:
   - docs
 category: getting-started
 eleventyNavigation:
-  key: Installing Pattern Lab
-  parent: getting-started
+  title: Installing Pattern Lab
+  key: getting-started
   order: 0
 ---
 

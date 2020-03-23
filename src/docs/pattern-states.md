@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Using Pattern States
-  parent: patterns
+  title: Using Pattern States
+  key: patterns
   order: 160
 ---
 

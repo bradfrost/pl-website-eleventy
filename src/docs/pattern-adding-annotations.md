@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Adding Annotations
-  parent: patterns
+  title: Adding Annotations
+  key: patterns
   order: 180
 ---
 

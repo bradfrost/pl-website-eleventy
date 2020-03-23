@@ -4,8 +4,8 @@ tags:
   - docs
 category: data
 eleventyNavigation:
-  key: Creating Pattern-specific Values
-  parent: data
+  title: Creating Pattern-specific Values
+  key: data
   order: 300
 ---
 

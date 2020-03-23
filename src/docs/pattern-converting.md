@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Converting Old Patterns
-  parent: patterns
+  title: Converting Old Patterns
+  key: patterns
   order: 190
 ---
 

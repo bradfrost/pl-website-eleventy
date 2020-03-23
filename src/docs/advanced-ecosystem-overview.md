@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Overview of Pattern Lab's Ecosystem
-  parent: advanced
+  key: advanced
+  title: Overview of Pattern Lab's Ecosystem
   order: 300
 ---
 

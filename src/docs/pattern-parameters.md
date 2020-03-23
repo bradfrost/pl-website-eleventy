@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Using Pattern Parameters
-  parent: patterns
+  title: Using Pattern Parameters
+  key: patterns
   order: 150
 ---
 

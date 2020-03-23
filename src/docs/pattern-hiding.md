@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Hiding Patterns in the Navigation
-  parent: patterns
+  title: Hiding Patterns in the Navigation
+  key: patterns
   order: 170
 ---
 

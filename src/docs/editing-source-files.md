@@ -4,8 +4,8 @@ tags:
   - docs
 category: getting-started
 eleventyNavigation:
-  key: Editing Pattern Lab Source Files
-  parent: getting-started
+  title: Editing Pattern Lab Source Files
+  key: getting-started
   order: 20
 ---
 

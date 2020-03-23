@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Generating CSS
-  parent: advanced
+  title: Generating CSS
+  key: advanced
   order: 300
 ---
 

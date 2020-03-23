@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Modifying the Pattern Header & Footer
-  parent: patterns
+  title: Modifying the Pattern Header & Footer
+  key: patterns
   order: 130
 ---
 

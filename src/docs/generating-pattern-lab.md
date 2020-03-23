@@ -4,8 +4,8 @@ tags:
   - docs
 category: getting-started
 eleventyNavigation:
-  key: Generating Pattern Lab
-  parent: getting-started
+  title: Generating Pattern Lab
+  key: getting-started
   order: 10
 ---
 

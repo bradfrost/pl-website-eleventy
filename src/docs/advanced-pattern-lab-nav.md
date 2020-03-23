@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Modifying Pattern Lab's Navigation
-  parent: advanced
+  title: Modifying Pattern Lab's Navigation
+  key: advanced
   order: 300
 ---
 

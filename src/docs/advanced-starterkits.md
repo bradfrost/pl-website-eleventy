@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Starterkits
-  parent: advanced
+  title: Starterkits
+  key: advanced
   order: 300
 ---
 

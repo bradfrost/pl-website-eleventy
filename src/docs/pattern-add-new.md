@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Adding New Patterns
-  parent: patterns
+  title: Adding New Patterns
+  key: patterns
   order: 70
 ---
 

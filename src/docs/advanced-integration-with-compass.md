@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Integration with Compass
-  parent: advanced
+  title: Integration with Compass
+  key: advanced
   order: 300
 ---
 

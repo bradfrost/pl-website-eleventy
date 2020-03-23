@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Reorganizing Patterns
-  parent: patterns
+  title: Reorganizing Patterns
+  key: patterns
   order: 80
 ---
 

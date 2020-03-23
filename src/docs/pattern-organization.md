@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Overview of Patterns
-  parent: patterns
+  title: Overview of Patterns
+  key: patterns
   order: 10
 ---
 

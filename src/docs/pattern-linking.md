@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Pattern Lab's Special Query String Variables
-  parent: patterns
+  title: Pattern Lab's Special Query String Variables
+  key: patterns
   order: 100
 ---
 

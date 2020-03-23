@@ -3,7 +3,7 @@ title: Pattern Lab 1 to Pattern Lab 2 Changes
 tags:
   - docs
 eleventyNavigation:
-  key: Pattern Lab 1 to Pattern Lab 2 Changes
+  title: Pattern Lab 1 to Pattern Lab 2 Changes
   order: 300
 ---
 

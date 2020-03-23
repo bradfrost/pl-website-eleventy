@@ -4,8 +4,8 @@ tags:
   - docs
 category: data
 eleventyNavigation:
-  key: Introduction to JSON & Mustache Variables
-  parent: data
+  title: Introduction to JSON & Mustache Variables
+  key: data
   order: 300
 ---
 

@@ -4,8 +4,8 @@ heading: Template Language and PatternEngines
 patternEnginesScript: true
 category: advanced
 eleventyNavigation:
-  key: Template Language and PatternEngines
-  parent: advanced
+  title: Template Language and PatternEngines
+  key: advanced
   order: 300
 ---
 

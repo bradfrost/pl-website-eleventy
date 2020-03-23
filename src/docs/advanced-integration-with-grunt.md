@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Integration with Grunt/Gulp
-  parent: advanced
+  title: Integration with Grunt/Gulp
+  key: advanced
   order: 300
 ---
 

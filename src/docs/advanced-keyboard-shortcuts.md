@@ -4,8 +4,8 @@ tags:
   - docs
 category: advanced
 eleventyNavigation:
-  key: Keyboard Shortcuts
-  parent: advanced
+  title: Keyboard Shortcuts
+  key: advanced
   order: 300
 ---
 

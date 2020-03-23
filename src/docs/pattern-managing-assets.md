@@ -4,8 +4,8 @@ tags:
   - docs
 category: patterns
 eleventyNavigation:
-  key: Managing Pattern Assets
-  parent: patterns
+  title: Managing Pattern Assets
+  key: patterns
   order: 120
 ---
 
