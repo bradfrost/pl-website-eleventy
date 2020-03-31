@@ -8,10 +8,11 @@
 .c-header {
 	position: relative;
 	background: $color-gray-88;
-	color: $color-gray-50;
+	color: $color-gray-27;
 	padding: $spacing;
+	@include hideScrollbar();
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-large) {
 		padding: $spacing-large;
 		min-height: 100vh;
 		flex-direction: column;
@@ -32,11 +33,10 @@
 	justify-content: space-between;
 	align-items: center;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-large) {
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-direction: column;
-		min-height: 100vh;
 	}
 }
 
@@ -47,7 +47,7 @@
 .c-header__nav-btn {
 	margin-left: auto;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-large) {
 		display: none;
 	}
 }
@@ -59,7 +59,7 @@
 .c-header__nav-container {
 	display: none;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-large) {
 		display: block;
 	}
 }
@@ -77,7 +77,7 @@
 	z-index: 5;
 	padding: $spacing;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-large) {
 		display: block;
 		position: static;
 		padding: 0;

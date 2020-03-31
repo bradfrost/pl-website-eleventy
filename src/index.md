@@ -6,12 +6,6 @@ archiveButtonText: See all posts
 socialImage: ''
 ---
 
-<video autoplay="" loop="" playsinline="" muted="">
-    <source src="https://patternlab.io/assets/atomic-design.mp4" type="video/mp4">
-</video>
-
-**Pattern Lab is a frontend workshop environment that helps you build, view, test, and showcase your design system's UI components.**
-
 At its core, Pattern Lab is a static site generator (powered by either Node or PHP) that stitches together UI components. But there's a whole lot more to it than that!
 
 - **Nested Patterns** - Pattern Lab lets you include UI patterns inside each other like Russian nesting dolls. Make a change to a pattern, and see those changes reflected anywhere the pattern is included!

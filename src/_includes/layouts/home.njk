@@ -1,14 +1,50 @@
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'Homepage' %}
 
-{# Intro content #}
-{% set heroTitle = title %}
-
 {% block content %}
-    
+
     {% include "components/hero.njk" %}
 
     <div class="l-container">
+        <ul class="c-tile-list">
+            <li class="c-tile-list__item">
+                <div class="c-tile c-tile--green">
+                    <div class="c-tile__body">
+                        <h2 class="c-tile__title">
+                            <a class="c-tile__link" href="/docs/installing-pattern-lab">Read the docs</a>
+                        </h2>
+                        <div class="c-tile__description">Learn how to get up and running with Pattern Lab, work with patterns, design with dynamic data, and use Pattern Lab's advanced features.</div>
+                    </div>
+                    <div class="c-tile__shadow" />
+                </div>
+            </li>
+            <li class="c-tile-list__item">
+                <div class="c-tile c-tile--orange">
+                    <div class="c-tile__body">
+                        <h2 class="c-tile__title">
+                            <a class="c-tile__link" href="/demos">Demos</a>
+                        </h2>
+                        <div class="c-tile__description">Demos of pattern starterkits for your project as well as a gallery of Pattern Lab projects in the wild</div>
+                    </div>
+                    <div class="c-tile__shadow" />
+                </div>
+            </li>
+            <li class="c-tile-list__item">
+                <div class="c-tile c-tile--purple">
+                    <div class="c-tile__body">
+                        <h2 class="c-tile__title">
+                            <a class="c-tile__link" href="/resources">Resources</a>
+                        </h2>
+                        <div class="c-tile__description">Links about Pattern Lab, design systems, and style guides</div>
+                    </div>
+                    <div class="c-tile__shadow" />
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="l-container">
+   
       <div class="c-text-passage">
         {{ content | safe }}
       </div>

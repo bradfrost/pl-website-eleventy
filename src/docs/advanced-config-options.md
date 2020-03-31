@@ -3,6 +3,10 @@ title: Editing the Configuration Options
 tags:
   - docs
 category: getting-started
+eleventyNavigation:
+  key: getting-started
+  title: Editing the Configuration Options
+  order: 30
 ---
 
 Pattern Lab Node comes with a configuration file [(`patternlab-config.json`)](https://github.com/pattern-lab/patternlab-node/blob/master/packages/core/patternlab-config.json) that allows you to modify certain aspects of the system. The latest default values are included within. This file is shipped within [the editions](https://github.com/pattern-lab?utf8=%E2%9C%93&query=edition-node) or can be supplied from core and the command line interface. Below is a description of each configuration option and how it affects Pattern Lab Node.
@@ -293,4 +297,3 @@ Important details:
     }
   ]
 ```
-

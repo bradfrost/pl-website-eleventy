@@ -3,6 +3,10 @@ title: Editing Pattern Lab Source Files
 tags:
   - docs
 category: getting-started
+eleventyNavigation:
+  title: Editing Pattern Lab Source Files
+  key: getting-started
+  order: 20
 ---
 
 When editing Pattern Lab you must put your files and edit them in the `./source/` directory. This includes your static assets like [JavaScript, CSS, and images](/docs/pattern-managing-assets.html). Each time [your site is generated](/docs/generating-pattern-lab.html) your patterns will be compiled and your static assets will be moved to the `./public/` directory. Because of this you **should not edit** the files in the `./public/` directory.
